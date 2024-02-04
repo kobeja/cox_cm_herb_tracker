@@ -1,13 +1,13 @@
-package com.example;
+package com.cox.cm.herbTracker;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class CoxCmHerbTrackerTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(CoxCmHerbTrackerPlugin.class);
 		RuneLite.main(args);
 	}
 }
