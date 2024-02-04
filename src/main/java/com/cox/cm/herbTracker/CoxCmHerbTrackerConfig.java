@@ -9,7 +9,7 @@ public interface CoxCmHerbTrackerConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
-		name = "Welcome Greeting",
+		name = "Test",
 		description = "The message to show to the user when they login"
 	)
 	default String greeting()

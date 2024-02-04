@@ -14,12 +14,12 @@ import java.awt.image.BufferedImage;
 public class CoxCmHerbTrackerOverlay extends Overlay
 {
     private final Client client;
-    private final CoxHerbTrackerPlugin plugin;
+    private final CoxCmHerbTrackerPlugin plugin;
     @Inject
     private ItemManager itemManager;
 
     @Inject
-    private CoxCmHerbTrackerOverlay(Client client, CoxHerbTrackerPlugin plugin)
+    private CoxCmHerbTrackerOverlay(Client client, CoxCmHerbTrackerPlugin plugin)
     {
         this.client = client;
         this.plugin = plugin;
